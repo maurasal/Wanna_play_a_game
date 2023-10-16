@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horsie Quiz Final</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Horsie Quiz</title>
 </head>
 
 <body>
@@ -12,12 +11,14 @@
         <h1>Want to play a game?</h1>
         <h2>Answer as many questions as you can before the time runs out. Click the button below to begin. Good luck!</h2>
     </header>
-    <div id="startPlay">
-        <span id="timer">00:00</span>
-        <button id="startButton">START QUIZ</button>     
-    </div>
+    <span id="timer">You have 30 seconds</span>
+    <button id="startButton">START QUIZ</button>  
     <div id="question"></div>
     <div id="options"></div>
+    <form id="myForm">
+        <input type="text" id="textInput">
+        <button type="submit">Submit</button>
+      </form>
     <script src="./script.js"></script>
 </body>
 </html>
