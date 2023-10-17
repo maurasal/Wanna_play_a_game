@@ -6,6 +6,7 @@ button {
     background: rgba(211, 101, 128, 0.954);
     color: #000000;
     padding: 10px;
+    border-radius: 20px;
   }
 
 header {

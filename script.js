@@ -15,12 +15,12 @@ const quizQuestions = [
     correctAnswer: 1
   },
   {
-    question: "What is the name of the piece of equipment that goes over a horse's head?",
+    question: "What is the name of the piece of equipment that goes on a horse's head?",
     options: ["Saddle", "Martingale", "Bridle"],
     correctAnswer: 2
   },
   {
-    question: "What unit of measurment is used to determine a horse's height measured?",
+    question: "What unit of measurment is used to determine a horse's height?",
     options: ["Feet", "Inches", "Hands"],
     correctAnswer: 2
   },
