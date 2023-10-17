@@ -68,17 +68,8 @@ function endQuiz() {
   clearInterval(timeD);
   console.log("Quiz ended. Your score: " + score);
   console.log('Time is up!');
-  questionElement.textContent = ("Enter your initials to record your score")
+  questionEl.textContent = ("Enter your initials to record your score")
 }
-
-document.getElementById("myForm").addEventListener("submit", function(event) {
-    event.preventDefault();
- 
-    var inputValue = document.getElementById("textInput").value;
-
-    console.log("Saved Scores: " + inputValue + " had a score of " + score);
-    document.getElementById("textInput").value = "";
-});
 
 function startQuiz() {
   const countdownDisplay = document.getElementById('timer');
@@ -92,3 +83,12 @@ function startQuiz() {
 
   displayQuestion();
 }
+
+document.getElementById("myForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  var inputValue = document.getElementById("textInput").value;
+
+  console.log("Saved Scores: " + inputValue + " had a score of " + score);
+  document.getElementById("textInput").value = "";
+});
