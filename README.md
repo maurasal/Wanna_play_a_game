@@ -10,7 +10,7 @@ My quiz is live at the following webpage:
 https://maurasal.github.io/Wanna_play_a_game/
 
 Here is a brief look at what to expect once you start the game:
-![Screenshot of the online quiz](<Screenshot 2023-10-16 202649.png>)
+![Screenshot of the online quiz](<Screenshot 2023-10-16 211732.png>)
 
 ## Credits
 
