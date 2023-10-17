@@ -1,6 +1,10 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 button {
     background: rgba(211, 101, 128, 0.954);
-    color: #13293d;
+    color: #000000;
     padding: 10px;
   }
 

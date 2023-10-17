@@ -77,7 +77,7 @@ function startQuiz() {
   timeD = setInterval(() => {
     timeRemaining--;
     countdownDisplay.textContent = ("You have " + timeRemaining + " second(s) remaining");
-    if (timeRemaining === 0) {
+    if (timeRemaining <= 0) {
       endQuiz()
     }
   }, 1000);
