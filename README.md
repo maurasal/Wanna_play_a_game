@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a short multiple choice quiz covering basic horse facts. The quiz will only give you 30 seconds to complete it, and if you get a question wrong the quiz will deduct 10 seconds from your time remaining. This quiz tested my knowledge of JavaScript, HTML, and CSS. Multiple choice quizes can be adjusted for any subject material, which will allow me to build on it in the future if I need to.
+This is a short multiple choice quiz covering a few basic JavaScript facts. The quiz will only give you 30 seconds to complete it, and if you get a question wrong the quiz will deduct 10 seconds from your time remaining. Building this quiz tested my knowledge of JavaScript, HTML, and CSS. Multiple choice quizes can be adjusted for any subject material, which will allow me to build on it in the future if I need to.
 
 ## Usage
 

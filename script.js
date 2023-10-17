@@ -10,23 +10,23 @@ startButton.addEventListener('click', startQuiz);
 
 const quizQuestions = [
   {
-    question: "What color is a 'bay' horse?",
-    options: ["White", "Brown", "Black"],
+    question: "Which variable should you use to store a value that will not change?",
+    options: ["let", "const", "var"],
     correctAnswer: 1
   },
   {
-    question: "What is the name of the piece of equipment that goes on a horse's head?",
-    options: ["Saddle", "Martingale", "Bridle"],
+    question: "Which of these is not a data type in JavaScript?",
+    options: ["String", "Number", "Letter"],
     correctAnswer: 2
   },
   {
-    question: "What unit of measurment is used to determine a horse's height?",
-    options: ["Feet", "Inches", "Hands"],
+    question: "You can use a(n) ___________ to group together multiple items under one variable?",
+    options: ["String", "Collection", "Array"],
     correctAnswer: 2
   },
   {
-    question: "What is the profession of someone who makes horse shoes?",
-    options: ["Farrier", "Veterinarian", "Doctor"],
+    question: "A __________ data type only takes true/false.",
+    options: ["Boolean", "Julius", "Boogie"],
     correctAnswer: 0
   },
 ];
