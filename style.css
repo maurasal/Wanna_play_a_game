@@ -1,0 +1,28 @@
+button {
+    background: rgba(211, 101, 128, 0.954);
+    color: #13293d;
+    padding: 10px;
+  }
+
+header {
+    color: rgb(85, 0, 85);
+    background-color: blanchedalmond;
+    text-align: center;
+}
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+nav {
+    font-size: large;
+    padding: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+#question {
+    font-size: large;
+    padding: 10px;
+}

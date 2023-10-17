@@ -68,14 +68,15 @@ function endQuiz() {
   clearInterval(timeD);
   console.log("Quiz ended. Your score: " + score);
   console.log('Time is up!');
-  questionEl.textContent = ("Enter your initials to record your score")
+  questionEl.textContent = ("Enter your initials to record your score in the console log.")
+  optionsEl.textContent = ("")
 }
 
 function startQuiz() {
   const countdownDisplay = document.getElementById('timer');
   timeD = setInterval(() => {
     timeRemaining--;
-    countdownDisplay.textContent = ("You have " + timeRemaining + " second(s) left");
+    countdownDisplay.textContent = ("You have " + timeRemaining + " second(s) remaining");
     if (timeRemaining === 0) {
       endQuiz()
     }
