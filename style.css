@@ -31,3 +31,7 @@ form {
     font-size: large;
     padding: 10px;
 }
+
+.hide {
+    display: none;
+}

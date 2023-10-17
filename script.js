@@ -2,6 +2,7 @@ var timerEl = document.getElementById('timer');
 const startButton = document.getElementById('startButton');
 const questionEl = document.getElementById("question");
 const optionsEl = document.getElementById("options");
+const countdownDisplay = document.getElementById('timer');
 //moved timer variables OUTSIDE of the startQuiz function so it's globally available
 let timeD;
 let timeRemaining = 30;
@@ -58,6 +59,7 @@ function checkAnswer(selectedIndex) {
   }
   currentQuestion++;
   if (currentQuestion === questions.length) {
+    countdownDisplay.textContent = ("You have completed the quiz!")
     endQuiz();
   } else {
     displayQuestion();
@@ -70,18 +72,20 @@ function endQuiz() {
   console.log('Time is up!');
   questionEl.textContent = ("Enter your initials to record your score in the console log.")
   optionsEl.textContent = ("")
+  document.getElementById("myForm").classList.remove("hide")
 }
 
 function startQuiz() {
-  const countdownDisplay = document.getElementById('timer');
   timeD = setInterval(() => {
     timeRemaining--;
     countdownDisplay.textContent = ("You have " + timeRemaining + " second(s) remaining");
     if (timeRemaining <= 0) {
+      countdownDisplay.textContent = ("You are out of time!")
       endQuiz()
     }
   }, 1000);
 
+  startButton.style.display = "none"
   displayQuestion();
 }
 
