@@ -15,4 +15,4 @@ Here is a brief look at what to expect once you start the game:
 ## Credits
 
 - I had the help of Jennifer Trevino, a TA in my EdX Coding Bootcamp
-- I utilized the AI program Xpert Learning Assistant to better clarify my code and make it more concise.
+- I utilized the AI program Xpert Learning Assistant to better clarify my JavaScript code and make it more concise.

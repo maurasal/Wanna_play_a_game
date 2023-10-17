@@ -8,7 +8,7 @@ let timeRemaining = 30;
 
 startButton.addEventListener('click', startQuiz);
 
-const quizQuestions = [
+const questions = [
   {
     question: "Which variable should you use to store a value that will not change?",
     options: ["let", "const", "var"],
@@ -37,10 +37,10 @@ let timer;
 
 function displayQuestion() {
 
-  questionEl.textContent = quizQuestions[currentQuestion].question;
+  questionEl.textContent = questions[currentQuestion].question;
 
   optionsEl.innerHTML = "";
-  quizQuestions[currentQuestion].options.forEach((option, index) => {
+  questions[currentQuestion].options.forEach((option, index) => {
     const optionButton = document.createElement("button");
     optionButton.textContent = option;
     optionButton.addEventListener("click", () => {
@@ -51,13 +51,13 @@ function displayQuestion() {
 }
 
 function checkAnswer(selectedIndex) {
-  if (selectedIndex === quizQuestions[currentQuestion].correctAnswer) {
+  if (selectedIndex === questions[currentQuestion].correctAnswer) {
     score++;
   } else {
     timeRemaining -= 10
   }
   currentQuestion++;
-  if (currentQuestion === quizQuestions.length) {
+  if (currentQuestion === questions.length) {
     endQuiz();
   } else {
     displayQuestion();
